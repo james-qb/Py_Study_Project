@@ -6,10 +6,15 @@
 # @Software: PyCharm
 from PIL import Image
 from time import sleep
-im = Image.open(r'D:\1.png')
-im.show()
-sleep(3)
-im.close()
+
+try:
+    im = Image.open(r'D:\1.png')
+    im.show()
+    sleep(3)
+    im.close()
+except FileNotFoundError as e:
+    print("文字不存在！" + e)
+
 
 from PIL import Image
 import matplotlib.pyplot as plt
