@@ -4,10 +4,8 @@
 # @Author  : qiubin
 # @File    : test_listdir.py
 # @Software: PyCharm
-import os
 import datetime
-import time
-import numpy
+import os
 
 
 def sortfile(path):
@@ -35,5 +33,3 @@ if __name__ == '__main__':
     sortfile('D:/')
     ll = map(lambda x: x if x > 1 else 1, [1, 0.9, 8, 1])
     print(list(ll))
-
-
