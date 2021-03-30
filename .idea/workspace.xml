@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfd3bbcd-620d-46f0-b2bc-af820785e40e" name="默认更改列表" comment="默认更改列表">
-      <change beforePath="$PROJECT_DIR$/.idea/Py_Study_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Py_Study_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_001/Sty/test_pyech.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_001/Sty/test_pyech.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_001/py_echart/test_bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_001/py_echart/test_bar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_001/test_listdir.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_001/test_listdir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +113,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="qiubin &lt;384341396@qq.com&gt;" />
@@ -237,7 +231,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.33992094" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -545,7 +539,7 @@
       <workItem from="1616983768610" duration="763000" />
       <workItem from="1616988927694" duration="202000" />
       <workItem from="1617003138231" duration="168000" />
-      <workItem from="1617007776882" duration="3387000" />
+      <workItem from="1617007776882" duration="6518000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1589258058301</created>
@@ -589,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617012114792</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="默认更改列表">
+      <created>1617012276607</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617012276607</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -713,6 +714,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
