@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfd3bbcd-620d-46f0-b2bc-af820785e40e" name="默认更改列表" comment="默认更改列表">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_001/test_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_001/test_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +233,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.33992094" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -539,7 +543,12 @@
       <workItem from="1616983768610" duration="763000" />
       <workItem from="1616988927694" duration="202000" />
       <workItem from="1617003138231" duration="168000" />
-      <workItem from="1617007776882" duration="6518000" />
+      <workItem from="1617007776882" duration="9208000" />
+      <workItem from="1617085132215" duration="210000" />
+      <workItem from="1617238515722" duration="117000" />
+      <workItem from="1617238650668" duration="562000" />
+      <workItem from="1617239231099" duration="296000" />
+      <workItem from="1617241781086" duration="2171000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1589258058301</created>
@@ -590,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617012276607</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="默认更改列表">
+      <created>1617074406522</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617074406522</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -764,11 +780,6 @@
           <url>file://$PROJECT_DIR$/../../../../Python36/Lib/site-packages/PyAutoIt-0.4-py3.6.egg/autoit/__init__.py</url>
           <line>5</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day_001/test_test.py</url>
-          <line>50</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1152,5 +1163,15 @@
     <entry file="file://$PROJECT_DIR$/Day_001/wx_ex/test_md5.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="(19||20)\d\d([- /.])(0[1-9]||1[012])\2(0[1-9]||[12][0-9]||3[01])" />
+        <entry key="text" value="1900-01-01 2007/08/13 1900.01.01 1900 01 01 1900-01.01 1900 13 01 1900 02 31" />
+      </map>
+    </option>
   </component>
 </project>
