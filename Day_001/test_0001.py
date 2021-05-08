@@ -4,10 +4,12 @@ from time import sleep
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from ddt import ddt,data,unpack
+from ddt import ddt, data, unpack
 
 
 class MyTestCase(unittest.TestCase):
+
+    driver = None
 
     @classmethod
     def setUpClass(cls):
@@ -43,6 +45,3 @@ class MyTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
-

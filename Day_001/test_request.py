@@ -6,42 +6,46 @@
 # @Software: PyCharm
 import requests
 
-url = 'http://devcas.cre.com.hk/osp-permission-api/user/login'
-
-header = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)\
-     Chrome/69.0.3497.100 Safari/537.36",
-    "Content-Type": "application/json;charset=UTF-8"
-}
-
-data = {
-    "loginName": "msg001",
-    "plainPassword": "d8ac56bd142e8918fdbef7787d3082b7",
-    "applicationId": "7ef676247d134ad38c1b5281f1243f43"
-}
-
 new_dict = {}
 
 
-def get_key_value(temp_dict, re_dict):
+def get_key_value(temp_dict):
     for skey, svalue in temp_dict.items():
         if type(svalue) != dict:
-            new_dict[skey] = svalue
             print(skey + ': ' + str(svalue))
         else:
-            get_key_value(svalue, new_dict)
-    return re_dict
+            get_key_value(svalue)
 
 
-req = requests.post(url, headers=header, json=data)
+url = "https://apiuat.cresz.com.cn/openapi/?model=app"
+
+headers = {
+    'Content-Type': 'application/json;charset=utf-8'
+}
+
+data = {
+    "REQUEST": {
+        "API_ATTRS": {
+            "Api_ID": "pcc.pccsys.pccmbr.getUser",
+            "Api_Version": "1.0.0",
+            "App_ID": "5000000115WR",
+            "App_Sub_ID": "5000000115WR",
+            "App_Token": "aa11bf4c-b16f-4970-a2bd-70817cfb0352",
+            "App_Version": "4.1.3",
+            "Divice_ID": "3d6823mf5wx",
+            "Divice_Version": "iPhone 7 Plus",
+            "OS_Version": "iOS 10.0.1",
+            "Partner_ID": "50000000",
+            "Sign": "C911A60445ACBD9BE392E4FD809B589F",
+            "Time_Stamp": "2021-04-25 17:20:43:253",
+            "User_Token": ""
+        },
+        "REQUEST_DATA": {
+            "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmZjgwODE4MTc1Zjk1MzRjMDE3NWY5NWUwM2FlMDAwMyIsImlhdCI6MTYxMDM0OTkwMCwic3ViIjoiMTMzMTY5NTEwOTAifQ.ZIASamUtOXIPI0MlRSX4ePN9ITKsVQjUAnksdouR1JQ",
+            "buUserNo": "100000003000104", "channelId": "APP"}
+    }
+}
+req = requests.request("POST", url, headers=headers, json=data)
 return_code = req.status_code
 return_json = req.json()
-ll = get_key_value(return_json, new_dict)
-print(ll)
-
-
-
-# print(return_code)
-# print(type(return_json))
-# print(return_json['msg'])
-# print(type(req.headers))
+get_key_value(return_json)

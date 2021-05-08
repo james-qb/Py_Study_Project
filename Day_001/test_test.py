@@ -46,27 +46,27 @@ print(res.url)
 print(res.status_code)
 print(type(res.json()))
 print(res.json())
-print(type(json.dumps(res.json())))
-
-
-def flatten(input_arr, out_arr=None):
-    if out_arr is None:
-        out_arr = []
-    for ele in input_arr:
-        if isinstance(ele, Iterable):
-            flatten(ele, out_arr)
-        else:
-            out_arr.append(ele)
-    return out_arr
-
-
-temp_list = [[1, 2, [3, 4]], [[5, 6], [7, 8]], [[9, [10, [11]]]]]
-print(flatten(temp_list))
-
-b = np.array([[1, 2, [3, 4]], [[5, 6], [7, 8]], [[9, [10, [11]]]]])
-print(b)
-b.flatten()
-print(b)
-print(dir(int))
-a = 111111
-print(a.bit_length())
+# print(type(json.dumps(res.json())))
+#
+#
+# def flatten(input_arr, out_arr=None):
+#     if out_arr is None:
+#         out_arr = []
+#     for ele in input_arr:
+#         if isinstance(ele, Iterable):
+#             flatten(ele, out_arr)
+#         else:
+#             out_arr.append(ele)
+#     return out_arr
+#
+#
+# temp_list = [[1, 2, [3, 4]], [[5, 6], [7, 8]], [[9, [10, [11]]]]]
+# print(flatten(temp_list))
+#
+# b = np.array([[1, 2, [3, 4]], [[5, 6], [7, 8]], [[9, [10, [11]]]]])
+# print(b)
+# b.flatten()
+# print(b)
+# print(dir(int))
+# a = 111111
+# print(a.bit_length())
