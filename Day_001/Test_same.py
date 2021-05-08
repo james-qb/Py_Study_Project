@@ -20,7 +20,9 @@ def compare(pic1, pic2):
     image2 = Image.open(pic2)
 
     histogram1 = image1.histogram()
+    print(histogram1)
     histogram2 = image2.histogram()
+    print(list(map(lambda a, b: (a-b)**2, histogram1, histogram2)))
 
     differ = math.sqrt(reduce(operator.add, list(map(lambda a, b: (a-b)**2, histogram1, histogram2)))/len(histogram1))
 
@@ -28,4 +30,4 @@ def compare(pic1, pic2):
     return differ
 
 
-compare(r'D:\1_1.png', r'D:\1_3.png')
+compare(r'D:\测试图片\1_1.png', r'D:\测试图片\1_3.png')
