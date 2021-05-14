@@ -5,6 +5,7 @@
 # @File    : test_request.py
 # @Software: PyCharm
 import requests
+from lxml import etree
 
 new_dict = {}
 

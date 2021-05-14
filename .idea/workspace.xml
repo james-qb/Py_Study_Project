@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bfd3bbcd-620d-46f0-b2bc-af820785e40e" name="默认更改列表" comment="格式优化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day_001/Test_same.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_001/Test_same.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_001/test_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_001/test_request.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +234,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.33992094" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -290,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Test_same">
+  <component name="RunManager" selected="Python.test_request">
     <configuration name="Test_same" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py_Study_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -434,11 +434,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_request" />
         <item itemvalue="Python.Test_same" />
         <item itemvalue="Python 测试.test_0001.MyTestCase 的 Unittest" />
         <item itemvalue="Python 测试.test_baidu.Baidu 的 Unittest" />
         <item itemvalue="Python.test_test" />
-        <item itemvalue="Python.test_request" />
       </list>
     </recent_temporary>
   </component>
@@ -575,7 +575,9 @@
       <workItem from="1619341042386" duration="4380000" />
       <workItem from="1620461209391" duration="200000" />
       <workItem from="1620461439240" duration="1880000" />
-      <workItem from="1620464301291" duration="1585000" />
+      <workItem from="1620464301291" duration="3268000" />
+      <workItem from="1620610569549" duration="739000" />
+      <workItem from="1620611340587" duration="3227000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1589258058301</created>
@@ -647,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620463610299</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="格式优化">
+      <created>1620466058985</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620466058985</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -834,14 +843,14 @@
     <SUITE FILE_PATH="coverage/Py_Study_Project$open_image.coverage" NAME="open_image 覆盖结果" MODIFIED="1616137333807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
     <SUITE FILE_PATH="coverage/Py_Study_Project$test_0001_MyTestCase__Unittest.coverage" NAME="test_0001.MyTestCase 的 Unittest 覆盖结果" MODIFIED="1620463650128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
     <SUITE FILE_PATH="coverage/Py_Study_Project$test_moudle.coverage" NAME="test_moudle 覆盖结果" MODIFIED="1619341440593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
-    <SUITE FILE_PATH="coverage/Py_Study_Project$test_request.coverage" NAME="test_request 覆盖结果" MODIFIED="1619342945599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
+    <SUITE FILE_PATH="coverage/Py_Study_Project$test_request.coverage" NAME="test_request 覆盖结果" MODIFIED="1620613405860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
     <SUITE FILE_PATH="coverage/Py_Study_Project$test_post.coverage" NAME="test_post 覆盖结果" MODIFIED="1616049601304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001/wx_ex" />
     <SUITE FILE_PATH="coverage/Py_Study_Project$test_listdir.coverage" NAME="test_listdir 覆盖结果" MODIFIED="1616049378209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
     <SUITE FILE_PATH="coverage/Py_Study_Project$test_test.coverage" NAME="test_test 覆盖结果" MODIFIED="1617245179884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
     <SUITE FILE_PATH="coverage/Py_Study_Project$test_md5.coverage" NAME="test_md5 覆盖结果" MODIFIED="1616654955126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001/wx_ex" />
     <SUITE FILE_PATH="coverage/Py_Study_Project$test_email.coverage" NAME="test_email 覆盖结果" MODIFIED="1616124948211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
     <SUITE FILE_PATH="coverage/Py_Study_Project$test_bar.coverage" NAME="test_bar 覆盖结果" MODIFIED="1616749485705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001/py_echart" />
-    <SUITE FILE_PATH="coverage/Py_Study_Project$Test_same.coverage" NAME="Test_same 覆盖结果" MODIFIED="1620465671987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
+    <SUITE FILE_PATH="coverage/Py_Study_Project$Test_same.coverage" NAME="Test_same 覆盖结果" MODIFIED="1620467969309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001" />
     <SUITE FILE_PATH="coverage/Py_Study_Project$common.coverage" NAME="common 覆盖结果" MODIFIED="1616136727775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test_Project_ZX" />
     <SUITE FILE_PATH="coverage/Py_Study_Project$test_baidu_Baidu__Unittest.coverage" NAME="test_baidu.Baidu 的 Unittest 覆盖结果" MODIFIED="1616659830132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_001/Sty" />
   </component>
